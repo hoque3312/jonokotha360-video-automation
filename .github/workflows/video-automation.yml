@@ -40,4 +40,4 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_GRAPH_VERSION: ${{ secrets.FB_GRAPH_VERSION }}
-        run: python fixed_worker.py
+        run: python worker.py
